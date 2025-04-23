@@ -1,0 +1,2 @@
+module MigropostsHelper
+end

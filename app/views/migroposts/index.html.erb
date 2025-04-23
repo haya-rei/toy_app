@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Migroposts</h1>
+
+<div id="migroposts">
+  <% @migroposts.each do |migropost| %>
+    <%= render migropost %>
+    <p>
+      <%= link_to "Show this migropost", migropost %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New migropost", new_migropost_path %>

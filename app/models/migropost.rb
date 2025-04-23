@@ -1,0 +1,2 @@
+class Migropost < ApplicationRecord
+end

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @migropost %>
+
+<div>
+  <%= link_to "Edit this migropost", edit_migropost_path(@migropost) %> |
+  <%= link_to "Back to migroposts", migroposts_path %>
+
+  <%= button_to "Destroy this migropost", @migropost, method: :delete %>
+</div>
